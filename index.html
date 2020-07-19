@@ -47,6 +47,22 @@
           <input type="submit" value="Submit" class="u-full-width" />
         </div>
       </form>
+      <form>
+        <input
+          type="text"
+          id="filter-input"
+          class="u-full-width"
+          placeholder="Filter"
+        />
+        <label for="filter-option">
+          <input type="radio" name="filter-option" id="title-filter" checked />
+          <span class="label-body">Title</span>
+          <input type="radio" name="filter-option" id="author-filter" />
+          <span class="label-body">Author</span>
+          <input type="radio" name="filter-option" id="isbn-filter" />
+          <span class="label-body">ISBN</span>
+        </label>
+      </form>
       <table class="u-full-width">
         <thead>
           <tr>
@@ -59,6 +75,6 @@
         <tbody id="book-list"></tbody>
       </table>
     </div>
-    <script src="./app.js"></script>
+    <script src="./appes6.js"></script>
   </body>
 </html>
